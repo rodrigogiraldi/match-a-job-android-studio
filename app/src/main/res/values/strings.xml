@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Match A Job</string>
+    <string name="login_form">Please fill the fields bellow</string>
+    <string name="login_email">Email</string>
+    <string name="login_email_hint">Ex: user@matchajob.com</string>
+    <string name="login_password">Password</string>
+    <string name="login_password_repeat">Repeat password</string>
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_register">Register</string>
+</resources>
