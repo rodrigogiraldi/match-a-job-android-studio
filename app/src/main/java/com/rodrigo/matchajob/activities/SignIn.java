@@ -58,6 +58,7 @@ public class SignIn extends Activity {
 //            open Home activity
             Toast toast = Toast.makeText(this ,"Login ok", Toast.LENGTH_LONG);
             toast.show();
+
         }
         else{
         }
@@ -92,6 +93,9 @@ public class SignIn extends Activity {
                 else{
                     Toast toast = Toast.makeText(SignIn.this, "User found!", Toast.LENGTH_LONG);
                     toast.show();
+
+                    Intent intent = new Intent(SignIn.this, MainActivity.class);
+                    startActivity(intent);
                 }
             }
         }, new Response.ErrorListener(){
